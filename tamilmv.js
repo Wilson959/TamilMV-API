@@ -66,7 +66,7 @@ const getPageData = async (url) => {
 }
 
 
-axios.get("https://www.1tamilmv.cu").then(async (res)=>{
+axios.get("https://www.1tamilmv.tf").then(async (res)=>{
     var data = parseFrontPageData(res.data);
     // console.log(data)
     var promises = []
